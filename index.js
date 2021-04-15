@@ -41,7 +41,7 @@ const questions = [
     type: 'list',
     message: 'Please choose License for your application',
     name: 'License',
-    choices: ['N/A', 'The MIT License', 'The GPL License', 'Apache License', 'GNU License'],
+    choices: ['N/A', 'The MIT License', 'The GNU GPL v2 License', 'Apache License', 'GNU GPL v3 License'],
     validate: (value) => { if (value) { return true } else { return 'Please provide value to continue' } }
   },
   {
@@ -88,7 +88,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
     .then(function (data) {
-      writeToFile('README.md', generator(data));
+      writeToFile('USERREADME.md', generator(data));
     })
 }
 

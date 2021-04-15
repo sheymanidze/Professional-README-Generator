@@ -22,7 +22,23 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license === 'The MIT License') {
+    return '[![License: MIT]((https://opensource.org/licenses/MIT)]'
+
+  } else if (license === 'The GNU GPL v2 License') {
+    return '[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]'
+
+  } else if (license === 'The GNU GPL v3 License') {
+    return '[![License: GPL v3](http://www.gnu.org/licenses/gpl-3.0)]'
+
+  } else if (license === 'Apache License') {
+    return '[![License](https://opensource.org/licenses/Apache-2.0)]'
+
+  } else {
+    return 'License provided did not match provided License'
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -37,8 +53,51 @@ function generateMarkdown(data) {
   ## Description
   ${data.Description}
 
+  ## Table of Contents 
+
+   * [Installation](##Installation)
+   * [Usage](##Usage)
+   * [License](##License)
+   * [Contributing](##Contributing)
+   * [Tests](##Tests)
+   * [Questions](##Questions)
+   
   
-  ${renderLicenseBadge(data.License)}
+  ## Installation
+
+   The following are steps to install the application: ${data.Installation}
+
+
+  ## Usage 
+
+   To use the application, ${data.Usage} 
+
+
+  ## License
+
+   ${renderLicenseBadge(data.License)}
+
+   Current project under ${data.License}
+
+   ${renderLicenseLink(data.License)}
+
+
+  ## Contributing
+
+   Contributors: ${data.Contributing}
+
+
+  ## Tests
+
+   Following steps have to be taken to test the application: ${data.Tests}
+
+  ## Questions
+
+    If you require any further information, have any questions or concerns, please contact me at:
+    
+    ${data.questions}
+    https://github.com/${data.GitHub}/${data.Title}
+    ${data.email}
 
 `;
 }

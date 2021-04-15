@@ -21,7 +21,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'Please provide table of contents',
+    message: 'Table of Contents',
     name: 'Table of Contents',
     validate: (value) => { if (value) { return true } else { return 'Please provide value to continue' } }
   },

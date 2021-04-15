@@ -1,7 +1,9 @@
-# ReadMe Generator 
+# sd 
+
+  
 
   ## Description
-  Opportunity to create a good quility readme file
+  sd
 
   ## Table of Contents 
 
@@ -15,37 +17,38 @@
   
   ## Installation
 
-   The following are steps to install the application: User has to run node index.js command in genirated terminla
+   The following are steps to install the application: sd
 
 
   ## Usage 
 
-   To use the application, after running command above user will be provided with the number of questions to create readme section 
+   To use the application, sd 
 
 
-  ## License
+  ## License 
 
-   Please contact the developer of apllication using the inforamtion under Questions section
+   Current application does not have License  N/A
 
-   Current project under N/A
-
-   License provided did not match provided License
+   
 
 
   ## Contributing
 
-   Contributors: undefined
+  Contributors: sd
 
 
   ## Tests
 
-   Following steps have to be taken to test the application: Run it in genirated terminal
+  Following steps have to be taken to test the application: ds
 
   ## Questions
 
-    If you require any further information, have any questions or concerns, please contact me at:
-    
-    undefined
-    sheymanidze
-    sorkin.anastasia@gmail.com
+  If you require any further information, have any questions or concerns, please contact me at:
 
+  sd
+
+  https://github.com/sd/sd
+
+  ds
+
+  

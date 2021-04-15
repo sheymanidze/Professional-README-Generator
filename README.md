@@ -5,12 +5,12 @@
  * Specifics
  * Video Link
  * Screenshots
- * Deployment of application
+ * Application Code
  * Comments
 
 # General Info
 
- Application was created to generate good quality README file
+ Application was created to generate good quality README file.
 
 
 # Specifics
@@ -24,8 +24,8 @@
 
 
 
-# Deployment of application
+# Application Code
 
- To run a project, please follow the link []()
+ To view application code, please follow the link [https://github.com/sheymanidze/Professional-README-Generator](https://github.com/sheymanidze/Professional-README-Generator)
 
 # Comments

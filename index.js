@@ -88,7 +88,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
     .then(function (data) {
-      writeToFile('USERREADME.md', generator(data));
+      writeToFile('README', generator(data));
     })
 }
 

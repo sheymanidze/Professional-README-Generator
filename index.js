@@ -58,7 +58,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'Contact information',
+    message: 'Contact information (phone number)',
     name: 'Questions',
     validate: (value) => { if (value) { return true } else { return 'Please provide value to continue' } }
   },
@@ -88,7 +88,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions)
     .then(function (data) {
-      writeToFile('README', generator(data));
+      writeToFile('./output/README.md', generator(data));
     })
 }
 

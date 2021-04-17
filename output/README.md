@@ -1,9 +1,9 @@
-# Password-generator 
+# as 
 
   
 
   ## Description
-  helps to generate safe password
+  as
 
   ## Table of Contents 
 
@@ -17,12 +17,12 @@
   
   ## Installation
 
-   The following are steps to install the application: npm install
+   The following are steps to install the application: as
 
 
   ## Usage 
 
-   To use the application, node index.js 
+   To use the application, as 
 
 
   ## License 
@@ -37,7 +37,7 @@
 
   ## Contributing
 
-  Contributors: A.S.
+  Contributors: as
 
 
   ## Tests
@@ -50,7 +50,7 @@
 
   as
 
-  https://github.com/as/Password-generator
+  https://github.com/as/as
 
   as
 

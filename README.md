@@ -25,7 +25,12 @@
 
 # Screenshots
 
+ Start
+
+![To start application](/images/start.png)
+
  If user picked N/A option for a License question
+
  ![N/A option](/images/na-option.png)
 
 

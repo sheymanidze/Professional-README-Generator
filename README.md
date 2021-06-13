@@ -27,11 +27,11 @@
 
  Start
 
-![To start application](/images/start.png)
+![To start application](./images/start.png)
 
  If user picked N/A option for a License question
 
- ![N/A option](/images/na-option.png)
+ ![N/A option](./images/na-option.png)
 
 
 # Application Code

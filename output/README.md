@@ -1,6 +1,6 @@
-# as 
+# Plan-sirfing 
 
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   as
@@ -27,12 +27,12 @@
 
   ## License 
 
-   Current application does not have License
+   Current project under The MIT License
 
 
   
 
-   
+   [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
 
   ## Contributing
@@ -50,7 +50,7 @@
 
   as
 
-  https://github.com/as/as
+  https://github.com/as/Plan-sirfing
 
   as
 
